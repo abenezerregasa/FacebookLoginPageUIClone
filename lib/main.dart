@@ -76,7 +76,7 @@ class _FacebookCloneState extends State<FacebookClone> {
                           labelText: "Email or Phone Number",
                         ),
                       ),
-                      SizedBox(height: 3,),
+                      SizedBox(height: 10,),
                       TextField(
                         controller: passwordController,
                         decoration: InputDecoration(
@@ -85,16 +85,20 @@ class _FacebookCloneState extends State<FacebookClone> {
                         ),
                 
                       ),
-                      SizedBox(height: 20,),
+                      SizedBox(height: 15,),
                 
                       SizedBox(
-                        width: 400,
+                        width: 500,
                         height: 40,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.blueAccent,
-                            foregroundColor: Colors.white
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.zero
+                            )
                           ),
+                          
                           
                           onPressed:() {}, 
                           child: Text("Login"),
@@ -105,7 +109,7 @@ class _FacebookCloneState extends State<FacebookClone> {
                       SizedBox(height: 20,),
                       Text("Forgot account?", style: TextStyle(color: Colors.blueAccent),),
                      
-                      SizedBox(height: 20,),
+                      SizedBox(height: 15,),
                 
                       SizedBox(
                         width: 200,
@@ -113,11 +117,16 @@ class _FacebookCloneState extends State<FacebookClone> {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.green,
-                            foregroundColor: Colors.white
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.zero,
+                            )
+
                           ),
                           
+                          
                           onPressed:() {}, 
-                          child: Text("Login"),
+                          child: Text("Create New Account"),
                         
                         ),
                       ),
