@@ -60,11 +60,18 @@ class _FacebookCloneState extends State<FacebookClone> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                   decoration: BoxDecoration(color: Colors.white),
+                  
+                   decoration: BoxDecoration(color: Colors.white, 
+                   
+            
+                    ),
+
+                    
                   width: 500, 
                   height: 300,
                           margin: EdgeInsets.all(22),
                           padding: EdgeInsets.all(20),
+                          
                   
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
